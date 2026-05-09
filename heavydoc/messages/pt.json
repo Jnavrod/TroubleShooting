@@ -1,0 +1,169 @@
+{
+  "common": {
+    "search": "Pesquisar",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "create": "Criar",
+    "add": "Adicionar",
+    "back": "Voltar",
+    "loading": "Carregando...",
+    "noResults": "Sem resultados",
+    "confirm": "Confirmar",
+    "yes": "Sim",
+    "no": "Não",
+    "name": "Nome",
+    "description": "Descrição",
+    "image": "Imagem",
+    "actions": "Ações",
+    "required": "Obrigatório",
+    "optional": "Opcional",
+    "uploadImage": "Enviar imagem",
+    "removeImage": "Remover imagem",
+    "severity": "Severidade",
+    "order": "Ordem",
+    "quantity": "Quantidade",
+    "notes": "Notas",
+    "partNumber": "Número de peça"
+  },
+  "nav": {
+    "home": "Início",
+    "machines": "Máquinas",
+    "systems": "Sistemas",
+    "tools": "Ferramentas",
+    "search": "Pesquisa",
+    "admin": "Administração",
+    "logout": "Sair",
+    "profile": "Perfil"
+  },
+  "home": {
+    "title": "Manual de Resolução de Falhas",
+    "subtitle": "Enciclopédia técnica para maquinaria pesada",
+    "searchPlaceholder": "Pesquisar código de erro, sistema, sintoma...",
+    "quickAccess": "Acesso Rápido",
+    "recentSearches": "Pesquisas Recentes",
+    "browseMachines": "Explorar por Máquina",
+    "browseSystems": "Explorar por Sistema"
+  },
+  "machines": {
+    "title": "Máquinas",
+    "new": "Nova Máquina",
+    "edit": "Editar Máquina",
+    "delete": "Excluir Máquina",
+    "deleteConfirm": "Excluir esta máquina? Esta ação não pode ser desfeita.",
+    "systems": "Sistemas",
+    "addSystem": "Atribuir Sistema",
+    "removeSystem": "Remover Sistema",
+    "noSystems": "Esta máquina não tem sistemas atribuídos.",
+    "slug": "Identificador (slug)"
+  },
+  "systems": {
+    "title": "Sistemas",
+    "new": "Novo Sistema",
+    "edit": "Editar Sistema",
+    "delete": "Excluir Sistema",
+    "deleteConfirm": "Excluir este sistema?",
+    "subsystems": "Subsistemas",
+    "addSubsystem": "Adicionar Subsistema",
+    "noSubsystems": "Sem subsistemas.",
+    "usedInMachines": "Usado em máquinas"
+  },
+  "subsystems": {
+    "title": "Subsistemas",
+    "new": "Novo Subsistema",
+    "edit": "Editar Subsistema",
+    "errorCodes": "Códigos de Erro",
+    "addErrorCode": "Adicionar Código de Erro",
+    "noErrorCodes": "Sem códigos de erro."
+  },
+  "errorCodes": {
+    "title": "Códigos de Erro",
+    "new": "Novo Código de Erro",
+    "edit": "Editar Código de Erro",
+    "code": "Código",
+    "severity": "Severidade",
+    "severityLow": "Baixa",
+    "severityMedium": "Média",
+    "severityHigh": "Alta",
+    "severityCritical": "Crítica",
+    "tabs": {
+      "diagnostic": "Diagnóstico",
+      "repair": "Reparo",
+      "tools": "Ferramentas",
+      "hazards": "Perigos"
+    }
+  },
+  "diagnosticSteps": {
+    "title": "Métodos de Diagnóstico",
+    "addStep": "Adicionar Passo",
+    "step": "Passo",
+    "noSteps": "Sem passos de diagnóstico."
+  },
+  "repairSteps": {
+    "title": "Procedimento de Reparo",
+    "addStep": "Adicionar Passo",
+    "step": "Passo",
+    "noSteps": "Sem passos de reparo."
+  },
+  "tools": {
+    "title": "Ferramentas",
+    "new": "Nova Ferramenta",
+    "edit": "Editar Ferramenta",
+    "required": "Ferramentas Necessárias",
+    "addTool": "Adicionar Ferramenta",
+    "noTools": "Sem ferramentas especificadas.",
+    "catalog": "Catálogo de Ferramentas"
+  },
+  "hazards": {
+    "title": "Perigos Associados",
+    "addHazard": "Adicionar Perigo",
+    "noHazards": "Sem perigos registrados.",
+    "warning": "Aviso",
+    "caution": "Cuidado",
+    "danger": "Perigo",
+    "icons": {
+      "electric": "Elétrico",
+      "pressure": "Alta Pressão",
+      "burn": "Queimadura",
+      "crush": "Esmagamento",
+      "chemical": "Químico",
+      "generic": "Geral"
+    }
+  },
+  "auth": {
+    "login": "Entrar",
+    "email": "Usuario",
+    "password": "Senha",
+    "loginButton": "Entrar",
+    "loginError": "Credenciais inválidas.",
+    "loginTitle": "Trouble Shooting",
+    "loginSubtitle": "Manual de Resolução de Falhas"
+  },
+  "admin": {
+    "title": "Administração",
+    "dashboard": "Painel de Controle",
+    "import": "Importar Traduções",
+    "importDescription": "Envie um arquivo Excel com traduções em ES/EN/PT.",
+    "downloadTemplate": "Baixar Modelo",
+    "uploadFile": "Enviar arquivo",
+    "importSuccess": "Importação bem-sucedida.",
+    "importError": "Erro na importação."
+  },
+  "search": {
+    "title": "Resultados da Pesquisa",
+    "placeholder": "Pesquisar código de erro, sistema, sintoma...",
+    "results": "resultados para",
+    "noResults": "Nenhum resultado encontrado para",
+    "categories": {
+      "errorCodes": "Códigos de Erro",
+      "systems": "Sistemas",
+      "subsystems": "Subsistemas"
+    }
+  },
+  "locale": {
+    "es": "Español",
+    "en": "English",
+    "pt": "Português"
+  }
+}

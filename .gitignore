@@ -1,0 +1,33 @@
+# Top-level ignore (en caso de git init en la raíz del repo)
+
+# Windows / WSL metadata files
+*:Zone.Identifier
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.iml
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Claude harness state (no debe ir al repo)
+.claude/
+
+# Env files (defensa en profundidad — el subproyecto ya los ignora)
+.env
+.env.local
+.env*.local
+
+# Subproyectos: no ignorar carpetas completas, solo lo que sus propios .gitignore manejan
+# heavydoc/ tiene su propio .gitignore con node_modules, .next, etc.

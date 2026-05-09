@@ -1,0 +1,169 @@
+{
+  "common": {
+    "search": "Search",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "add": "Add",
+    "back": "Back",
+    "loading": "Loading...",
+    "noResults": "No results",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "name": "Name",
+    "description": "Description",
+    "image": "Image",
+    "actions": "Actions",
+    "required": "Required",
+    "optional": "Optional",
+    "uploadImage": "Upload image",
+    "removeImage": "Remove image",
+    "severity": "Severity",
+    "order": "Order",
+    "quantity": "Quantity",
+    "notes": "Notes",
+    "partNumber": "Part number"
+  },
+  "nav": {
+    "home": "Home",
+    "machines": "Machines",
+    "systems": "Systems",
+    "tools": "Tools",
+    "search": "Search",
+    "admin": "Administration",
+    "logout": "Log out",
+    "profile": "Profile"
+  },
+  "home": {
+    "title": "Fault Resolution Manual",
+    "subtitle": "Technical encyclopedia for heavy machinery",
+    "searchPlaceholder": "Search error code, system, symptom...",
+    "quickAccess": "Quick Access",
+    "recentSearches": "Recent Searches",
+    "browseMachines": "Browse by Machine",
+    "browseSystems": "Browse by System"
+  },
+  "machines": {
+    "title": "Machines",
+    "new": "New Machine",
+    "edit": "Edit Machine",
+    "delete": "Delete Machine",
+    "deleteConfirm": "Delete this machine? This action cannot be undone.",
+    "systems": "Systems",
+    "addSystem": "Assign System",
+    "removeSystem": "Remove System",
+    "noSystems": "This machine has no assigned systems.",
+    "slug": "Identifier (slug)"
+  },
+  "systems": {
+    "title": "Systems",
+    "new": "New System",
+    "edit": "Edit System",
+    "delete": "Delete System",
+    "deleteConfirm": "Delete this system?",
+    "subsystems": "Subsystems",
+    "addSubsystem": "Add Subsystem",
+    "noSubsystems": "No subsystems.",
+    "usedInMachines": "Used in machines"
+  },
+  "subsystems": {
+    "title": "Subsystems",
+    "new": "New Subsystem",
+    "edit": "Edit Subsystem",
+    "errorCodes": "Error Codes",
+    "addErrorCode": "Add Error Code",
+    "noErrorCodes": "No error codes."
+  },
+  "errorCodes": {
+    "title": "Error Codes",
+    "new": "New Error Code",
+    "edit": "Edit Error Code",
+    "code": "Code",
+    "severity": "Severity",
+    "severityLow": "Low",
+    "severityMedium": "Medium",
+    "severityHigh": "High",
+    "severityCritical": "Critical",
+    "tabs": {
+      "diagnostic": "Diagnostic",
+      "repair": "Repair",
+      "tools": "Tools",
+      "hazards": "Hazards"
+    }
+  },
+  "diagnosticSteps": {
+    "title": "Diagnostic Methods",
+    "addStep": "Add Step",
+    "step": "Step",
+    "noSteps": "No diagnostic steps."
+  },
+  "repairSteps": {
+    "title": "Repair Procedure",
+    "addStep": "Add Step",
+    "step": "Step",
+    "noSteps": "No repair steps."
+  },
+  "tools": {
+    "title": "Tools",
+    "new": "New Tool",
+    "edit": "Edit Tool",
+    "required": "Required Tools",
+    "addTool": "Add Tool",
+    "noTools": "No tools specified.",
+    "catalog": "Tool Catalog"
+  },
+  "hazards": {
+    "title": "Associated Hazards",
+    "addHazard": "Add Hazard",
+    "noHazards": "No hazards recorded.",
+    "warning": "Warning",
+    "caution": "Caution",
+    "danger": "Danger",
+    "icons": {
+      "electric": "Electrical",
+      "pressure": "High Pressure",
+      "burn": "Burns",
+      "crush": "Crushing",
+      "chemical": "Chemical",
+      "generic": "General"
+    }
+  },
+  "auth": {
+    "login": "Log In",
+    "email": "Usuario",
+    "password": "Password",
+    "loginButton": "Sign In",
+    "loginError": "Invalid credentials.",
+    "loginTitle": "Trouble Shooting",
+    "loginSubtitle": "Fault Resolution Manual"
+  },
+  "admin": {
+    "title": "Administration",
+    "dashboard": "Dashboard",
+    "import": "Import Translations",
+    "importDescription": "Upload an Excel file with ES/EN/PT translations.",
+    "downloadTemplate": "Download Template",
+    "uploadFile": "Upload file",
+    "importSuccess": "Import successful.",
+    "importError": "Import error."
+  },
+  "search": {
+    "title": "Search Results",
+    "placeholder": "Search error code, system, symptom...",
+    "results": "results for",
+    "noResults": "No results found for",
+    "categories": {
+      "errorCodes": "Error Codes",
+      "systems": "Systems",
+      "subsystems": "Subsystems"
+    }
+  },
+  "locale": {
+    "es": "Español",
+    "en": "English",
+    "pt": "Português"
+  }
+}
